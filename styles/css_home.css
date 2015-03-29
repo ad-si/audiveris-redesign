@@ -1,0 +1,194 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  font: 100 13px/18px "Arial", sans-serif;
+  color: black;
+  background: white;
+}
+
+div#wrapper {
+	width: 940px;
+  margin: 0 auto 0 auto;
+}
+
+div#wrapcontent {
+	min-height: 500px;
+}
+
+h1 {
+	font:500 16px/16px "Trebuchet MS", sans-serif;
+	color: rgb(120,120,255);
+	margin: 0 20px 0 0;
+}
+
+h2 {
+	font:500 20px/50px "Arial", sans-serif;
+}
+
+h3 {
+	font:500 16px/16px "Trebuchet MS", sans-serif;
+	color: rgb(0,0,0);
+}
+
+
+img#logo{
+	vertical-align:-5px;
+	height: 50px;
+	margin: 10px 20px 0px 0;
+}
+
+/*------------------------------------------------------NAVIGATION----------------*/
+
+div#nav {
+}
+
+div#nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+div#nav form {
+	display: inline-block;
+}
+
+div#nav form input[type="text"]{
+	display: inline-block;
+	position: relative;
+	bottom: 7px;
+	height: 26px;
+	width: 200px;
+	font: 500 12px/12px Arial, sans-serif;
+	background: white;
+	border: 1px solid rgb(150,150,150);
+	border-radius: 5px;
+	padding: 0 10px 0 10px;
+}
+
+div#nav form input:focus {
+  box-shadow: 0 0 10px rgb(190, 250, 80);
+}
+
+div#nav a#upload {
+	float: right;
+	display: block;
+	font: 900 20px/20px "Trebuchet MS", sans-serif;
+	background: rgb(190, 250, 80);
+	border-radius: 5px;
+	box-shadow: 0 0 5px black;
+	padding: 8px;
+	margin: 15px 0 0px 0;
+}
+
+div#nav a#upload  span#grey{
+	font: 300 11px/11px "Trebuchet MS", sans-serif;
+}
+
+ /*------------------------------------------------------home-------------------------------------------*/
+div#description{
+  background: rgb(240,240,240);
+  border: 1px solid rgb(200,200,200);
+  padding: 40px;
+  margin: 30px 0 0 0;
+}
+
+img#screenshot {
+	float: right;
+	height: 250px;
+	margin: 40px;
+
+}
+
+table{
+	font: 300 11px/11px "Trebuchet MS", sans-serif;
+	margin: 0px 0 0 0;
+}
+
+table td{
+	padding: 1px;
+}
+
+
+table tr.a{
+	background: rgb(200,200,200);
+	
+}
+
+table tr.b{
+	
+}
+
+div.box {
+	vertical-align: top;
+	display: inline-block;
+	width: 440px;
+	padding: 10px;
+	/*border: 1px solid rgb(200,200,200);*/
+}
+
+div#roadmap{
+	margin: 20px 0px 10px 0;
+}
+
+div#news {
+	margin: 20px 10px 10px 0;
+}
+
+div.box hr {
+	width: 440px;
+	background: rgb(200,200,200);
+	height: 1px;
+	margin: 5px 0 5px 0;
+}
+
+div.box ul {
+	position: relative;
+	left: 10px;
+}
+
+/*----------Impressum---------------*/
+div#impressum {
+  padding: 40px;
+}
+
+
+/*------------footer----------------*/
+div#footer hr {
+	width: 940px;
+	background: rgb(200,200,200);
+	height: 1px;
+	margin: 20px 0 5px 0;
+}
+
+div#footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 0px 0 20px 0;
+}
+
+div#footer li {
+  display: inline;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+div#footer a {
+  color: rgb(0,100,255);
+  margin: 0 10px 0 0;
+}
+
+div#footer a#language {
+	background: rgb(200,200,200);
+	color: black;
+	text-decoration: none;
+	padding: 1px;
+}
+
+span#copyright {
+  color: rgb(50,50,50);
+  margin: 0 15px 0 0;
+}
